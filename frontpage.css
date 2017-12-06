@@ -1,35 +1,31 @@
 .section-title, .plug {
-            padding: 10px 15px;
-        }
+    padding: 10px 15px;
+}
 
-        .section {
-            padding: 10px 0 14px 0;
-            text-indent: 20px;
-            overflow-x: scroll;
-            overflow-y: visible;
-            -webkit-overflow-scrolling: auto;
-            -ms-overflow-style: none;
-            white-space: nowrap;
-            user-select: none;
-            position: relative;
-        }
+.section {
+    padding: 10px 0 14px 0;
+    text-indent: 20px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: auto;
+    -ms-overflow-style: none;
+    white-space: nowrap;
+    user-select: none;
+    position: relative;
+}
 
-        .section::-webkit-scrollbar {
-            display: none;
-        }
+.section::-webkit-scrollbar {
+    display: none;
+}
 
-        .plug {
-            width: 300px;
-            display: inline-block;
-            position: relative;
-            white-space: normal;
-            height: 100%;
-        }
+.plug {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    white-space: normal;
+    height: 100%;
+}
 
-        .sections * {
-            box-sizing: border-box;
-        }
-
-        .sections {
-            width: 100%;
-        }
+.sections * {
+    box-sizing: border-box;
+}
